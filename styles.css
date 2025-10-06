@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 55px
+    
+    
+}
+
+ img {
+    width: 60px;
+    height: 60px;
+}
+nav div a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.signin-btn {
+    background-color: #0075C4;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 4px;
+}
+
+.login-btn {
+     border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+
+}
+
+/* hero-section */
+
+.hero-section {
+    margin-left: 15px;
+}
+
+.cta {
+    font-size: 64px;
+    margin: 0;
+}
+
+#action {
+    color:rgb(106, 104, 102);
+}
+
+.jobapplication-btn {
+    background-color: #0075C4;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: none;
+    margin-right: 25px;
+    
+    
+}
+
+.onboard-btn {
+    background-color: #D8D8D8;
+    border-radius: 6px;
+    padding: 5px 10px;
+    border: none;
+
+}

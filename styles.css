@@ -3,18 +3,12 @@ body {
     background-color: #6AC0D9;
 }
 
-
-
-
-
 nav {
     display: flex;
     justify-content:space-between;
     align-items: center;
     margin-bottom: 55px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 }
 
  img {
@@ -68,32 +62,31 @@ nav div a {
 
 #action {
     color:rgb(106, 104, 102);
-    margin-top: 25px;
-    font-size: 30px;
+    margin-top: 35px;
+    font-size: 23px;
 }
 
+.button-container {
+    margin-top: 60px;
+}
 .jobapplication-btn {
     background-color: #0075C4;
     border-radius: 6px;
     padding: 10px 10px;
     border: none;
     margin-right: 25px;
-    margin-top: 30px;
     font-size: 20px;
-    
 }
 
-.onboard-btn {
+.onboarding-btn {
     background-color: #D8D8D8;
     font-size: 20px;
     border-radius: 6px;
     padding: 10px 10px;
     border: none;
-    margin-top: 30px;
-
 }
 
-.onboard-btn:hover {
+.onboarding-btn:hover {
     background-color: #0075C4;
     opacity: 0.65;
 }
@@ -101,7 +94,7 @@ nav div a {
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .networking-img img{
@@ -112,7 +105,7 @@ nav div a {
 .roles {
     background-color: #D8D8D8;
     height: 600px;
-    margin-top: 200px;
+    margin-top: 163px;
     
 }
 
@@ -125,7 +118,7 @@ nav div a {
     font-size: 40px;
 }
 .roles-header ol {
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 20px;
     font-style: italic;
     line-height: 28px;;
@@ -146,12 +139,64 @@ nav div a {
     border-radius: 8px;
     background-color: white;
     margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
     
 }
 
-/* increase icons size */
+/* roles icons */
 
-.big-icons {
-    font-size: 50px;
-    
+.roles-icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;    
+}
+
+.roles-container p {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 17px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #101D42;
+    height: 300px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 40px;
+}
+footer img {
+    height: 50px;
+    width: 50px;
+    padding-top: 30px;
+}
+.footer-links {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+footer p {
+    color: white;
+}
+
+.socials p {
+    text-align: center;
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+
+
+.email {
+    line-height: 30px;
+    font-size: 18px;
 }

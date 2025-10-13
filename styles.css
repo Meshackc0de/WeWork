@@ -1,6 +1,8 @@
 body {
     font-family: rubik;
-    background-color: #6AC0D9;
+    background-color: #4392F1;
+    /* background-color: #48BEFF; */
+    /* background-color: #6AC0D9; */
 }
 
 nav {
@@ -98,14 +100,48 @@ nav div a {
 }
 
 .networking-img img{
-    width: 400px;
+    width: 600px;
     height: auto;
 }
 
+/* jobs-section */
+
+.jobs {
+    background-color: #E7F0FF;
+    height: 700px;
+    margin-top: 70px;
+}
+.jobs h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.job-board > div {
+    line-height: 25px;
+    padding-left: 35px;
+    padding-top: 35px;
+    background-color: white;
+    height: 230px;
+    width: 320px;
+    border-radius: 15px;
+    margin-left: 10px;
+
+}
+.job-board > div img {
+    width: 40px;
+    height: 40px;
+}
+.job-board > div p{
+    font-size: 16px;
+}
+
+
+/* about us section*/
 .roles {
-    background-color: #D8D8D8;
+    background-color: #E3EBFF;
+    /* background-color: #D8D8D8; */
     height: 600px;
-    margin-top: 163px;
     
 }
 
@@ -183,7 +219,6 @@ footer img {
     line-height: 30px;
 }
 
-
 footer p {
     color: white;
 }
@@ -191,12 +226,16 @@ footer p {
 .socials p {
     text-align: center;
     padding-left: 5px;
+    font-size: 20px;
     font-weight: 700;
 }
-
-
 
 .email {
     line-height: 30px;
     font-size: 18px;
+}
+.email-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
 }

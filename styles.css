@@ -108,13 +108,21 @@ nav div a {
 
 .jobs {
     background-color: #E7F0FF;
-    height: 700px;
+    height: 900px;
     margin-top: 70px;
 }
+
 .jobs h1 {
     text-align: center;
     padding-top: 50px;
     font-size: 40px;
+}
+.job-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 2px;
+
 }
 
 .job-board > div {
@@ -125,7 +133,10 @@ nav div a {
     height: 230px;
     width: 320px;
     border-radius: 15px;
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 .job-board > div img {
@@ -141,7 +152,7 @@ nav div a {
 .roles {
     background-color: #E3EBFF;
     /* background-color: #D8D8D8; */
-    height: 600px;
+    height: 700px;
     
 }
 
@@ -157,8 +168,7 @@ nav div a {
     margin-top: 30px;
     font-size: 20px;
     font-style: italic;
-    line-height: 28px;;
-    
+    line-height: 28px;; 
 }
 
 
@@ -170,8 +180,8 @@ nav div a {
 }
 
 .roles-container > div {
-    height: 180px;
-    width: 250px;
+    height: 230px;
+    width: 320px;
     border-radius: 8px;
     background-color: white;
     margin-top: 100px;
@@ -185,14 +195,14 @@ nav div a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 50px;
     width: 50px;    
 }
 
 .roles-container p {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 40px;
     font-size: 17px;
 }
 
@@ -239,3 +249,5 @@ footer p {
     font-size: 20px;
     font-weight: 500;
 }
+
+
